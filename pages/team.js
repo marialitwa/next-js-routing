@@ -1,3 +1,17 @@
+import Link from "next/link";
+
 export default function Team() {
-  return <h1>Team content here</h1>;
+  return (
+    <>
+      <li>
+        <Link href="/team/Andrea">Andrea</Link>
+      </li>
+      <li>
+        <Link href="/team/Jessica">Jessica</Link>
+      </li>
+      <li>
+        <Link href="/team/Michael">Michael</Link>
+      </li>
+    </>
+  );
 }

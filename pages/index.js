@@ -8,6 +8,9 @@ export default function Home() {
       <Link href="/team" passHref>
         <StyledLink>Team</StyledLink>
       </Link>
+      <Link href="/name" passHref>
+        <StyledLink>Name</StyledLink>
+      </Link>
     </>
   );
 }
