@@ -13,13 +13,17 @@ export default function Header() {
           <StyledNavLink active={pathname === "/"}>Home</StyledNavLink>
         </Link>
         <Link href="/product" passHref>
-          <StyledNavLink active={pathname === "/product"}>Product</StyledNavLink>
+          <StyledNavLink active={pathname === "/product"}>
+            Product
+          </StyledNavLink>
         </Link>
         <Link href="/team" passHref>
           <StyledNavLink active={pathname === "/team"}>Team</StyledNavLink>
         </Link>
         <Link href="/account" passHref>
-          <StyledNavLink active={pathname === "/account"}>Account</StyledNavLink>
+          <StyledNavLink active={pathname === "/account"}>
+            Account
+          </StyledNavLink>
         </Link>
       </StyledNav>
     </StyledHeader>
